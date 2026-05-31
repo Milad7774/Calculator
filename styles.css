@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input , button{
+    padding: 15px;
+    width: 45px;
+    height: 50px;
+}
+
+.Calc{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 5px;
+    width: 200px;
+    height: 310px;
+    background-color: rgb(172, 172, 172);
+}
+#result{
+    height: 38px;
+    width: 200px;
+    background-color: gray;
+    margin-bottom: -4.4px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.full{
+    flex: 30%;
+}
+.clear{
+    background-color: red;
+    flex: 33%;
+}
+.delete{
+    background-color: white;
+    flex: 33%;
+}
